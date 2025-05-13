@@ -22,3 +22,4 @@ CREATE TABLE food (
     purchase_date DATE,
     amount INT
 );
+ heloooo ppoooopy
