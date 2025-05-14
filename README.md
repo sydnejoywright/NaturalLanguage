@@ -2,7 +2,7 @@ This database allows the user to find out what is in their fridge.
 
 ![image](https://github.com/user-attachments/assets/1f2f7fe0-5f4b-419a-9d88-ecd58909ea12)
 
-Below are two examples from the zero-shot strategy responses:
+I used Single-domain Few-shot Text-to-SQL strategy for the following examples.
 
 Successful Query
 
