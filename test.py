@@ -58,7 +58,7 @@ def execute_query(sql_query, db_path="your_database.db"):
         return [], [f"Query Execution Failed: {e}"]
 
 def send_to_chatgpt(messages, model='gpt-4o'):
-    openai.api_key = "sk-proj-..."  # Your actual key
+    openai.api_key = os.getenv("OPENAI_API_KEY")
     response = openai.ChatCompletion.create(
         model=model,
         messages=messages
