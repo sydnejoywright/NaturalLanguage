@@ -6,19 +6,17 @@ I used Single-domain Few-shot Text-to-SQL strategy for the following examples.
 
 Successful Query
 
-Query: 
-
-The AI generated the following SQL query:
+Query: how many fridges are there 
+generated sql query: SELECT COUNT(*) FROM fridge; 
+chat's final response: There are 3 fridges.
 
 Less Effective Query
 
-Query:
-
-The AI generated this SQL query:
+Query: How many eggs are in my shopping cart? 
+generated sql query: SELECT amount FROM food WHERE item_name = 'eggs'; 
+chat's final response: You have 8 eggs in your shopping cart.
 
 What made it less effective:
 
 These examples illustrate both the strengths and areas for improvement in the AI-generated queries and friendly responses.
 
-A file outlining at least 6 other examples.
-Describe somewhere which prompting strategies you tried and if you noticed a difference between them. (Note my post only does two of three - which is fine!).
